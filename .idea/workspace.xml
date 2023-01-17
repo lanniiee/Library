@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="597503b1-b4d4-41be-83cc-f91382fc6bea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="597503b1-b4d4-41be-83cc-f91382fc6bea" name="Changes" comment="add in function to add new users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/book/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/book/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/commands/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/database/CsvToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/database/CsvToJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/database/ReadJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/database/ReadJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/database/ReadUserJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/database/ReadUserJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/database/WriteJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/database/WriteJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nology/library/user/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nology/library/user/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -100,6 +97,8 @@
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.ReadJson" />
         <item itemvalue="Application.CsvToJava" />
+        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.CsvToJava" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673350161620</updated>
     </task>
+    <task id="LOCAL-00001" summary="add in function to add new users">
+      <created>1673541353819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673541353820</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add in function to add new users" />
+    <option name="LAST_COMMIT_MESSAGE" value="add in function to add new users" />
   </component>
 </project>

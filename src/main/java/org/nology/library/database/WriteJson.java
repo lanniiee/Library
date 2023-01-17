@@ -6,7 +6,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class WriteJson {
 
@@ -27,8 +26,8 @@ public class WriteJson {
         }
     }
 
+
     public void addUser(String user, String name, String password) {
-        ArrayList<String> userObj = new ArrayList<>();
         JSONObject obj = new JSONObject();
         obj.put("user", user);
         obj.put("name", name);
@@ -53,4 +52,7 @@ public class WriteJson {
         }
 
     }
+
+
+
 }

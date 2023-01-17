@@ -19,8 +19,5 @@ public class Library {
         Commands commands = new Commands(users.getUsers(), books.getBooks(), open, writeJson);
         commands.handleCommands();
 
-
-
-
     }
 }
