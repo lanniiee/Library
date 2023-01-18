@@ -114,24 +114,22 @@ public class Commands {
         String userInput = scanner.next();
         name = userInput;
         for (int i = 0; i < users.size(); i++) {
-            if(users.get(i).getName().equals(name)) {
+            if(users.get(i).getName().equals(name) && open == true) {
                 handlePassword();
                 if (users.get(i).getPassword().equals(password)) {
                     printMessage("\nLogin Successful");
                     loggedIn = true;
                     handleOptions();
-                } else {
-                    handlePassword();
                 }
             }
         }
     }
 
     public void handlePassword() {
-        printMessage("\nPassword:");
-        Scanner scanner = new Scanner(System.in);
-        String userInput = scanner.next();
-        password = userInput;
+            printMessage("\nPassword:");
+            Scanner scanner = new Scanner(System.in);
+            String userInput = scanner.next();
+            password = userInput;
     }
 
     protected void printMessage(String message) {
@@ -139,7 +137,7 @@ public class Commands {
     }
 
     public void handleOptions() {
-        while (loggedIn == true) {
+        while (open == true && loggedIn == true) {
             printMessage("\n1. See all books");
             printMessage("2. Loan a book");
             printMessage("3. Exit");
@@ -156,6 +154,7 @@ public class Commands {
             } else if (input.equals("3")) {
                 open = false;
                 loggedIn = false;
+                System.out.println("Thank you for visiting. Goodbye!");
             }
         }
 
@@ -185,7 +184,7 @@ public class Commands {
                         bookObj.put("numOfLoan", numOfLoan);
                         bookObj.put("loan", true);
                         bookArr.set(i, bookObj);
-                        System.out.println("You have successfully loaned " + bookObj.get("Title"));
+                        System.out.println("You have successfully loaned '" + bookObj.get("Title") + "'");
                     } else {
                         System.out.println( bookObj.get("Title") + " is unavailable for loan.");
                     }
@@ -232,4 +231,11 @@ public class Commands {
 
     }
 
+    public void setOpen(boolean open) {
+        this.open = open;
+    }
+
+    public void setLoggedIn(boolean loggedIn) {
+        this.loggedIn = loggedIn;
+    }
 }
